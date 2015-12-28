@@ -15,6 +15,7 @@
 		2FFC0A4B1C293A19001CEDC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFC0A491C293A19001CEDC7 /* LaunchScreen.storyboard */; };
 		2FFC0A561C293A19001CEDC7 /* line_animationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFC0A551C293A19001CEDC7 /* line_animationTests.m */; };
 		2FFC0A611C293A19001CEDC7 /* line_animationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFC0A601C293A19001CEDC7 /* line_animationUITests.m */; };
+		2FFC0A701C294568001CEDC7 /* were.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFC0A6F1C294568001CEDC7 /* were.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2FFC0A5C1C293A19001CEDC7 /* line_animationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = line_animationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FFC0A601C293A19001CEDC7 /* line_animationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = line_animationUITests.m; sourceTree = "<group>"; };
 		2FFC0A621C293A19001CEDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FFC0A6E1C294568001CEDC7 /* were.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = were.h; sourceTree = "<group>"; };
+		2FFC0A6F1C294568001CEDC7 /* were.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = were.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				2FFC0A3F1C293A18001CEDC7 /* AppDelegate.m */,
 				2FFC0A411C293A19001CEDC7 /* ViewController.h */,
 				2FFC0A421C293A19001CEDC7 /* ViewController.m */,
+				2FFC0A6E1C294568001CEDC7 /* were.h */,
+				2FFC0A6F1C294568001CEDC7 /* were.m */,
 				2FFC0A441C293A19001CEDC7 /* Main.storyboard */,
 				2FFC0A471C293A19001CEDC7 /* Assets.xcassets */,
 				2FFC0A491C293A19001CEDC7 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FFC0A701C294568001CEDC7 /* were.m in Sources */,
 				2FFC0A431C293A19001CEDC7 /* ViewController.m in Sources */,
 				2FFC0A401C293A18001CEDC7 /* AppDelegate.m in Sources */,
 				2FFC0A3D1C293A18001CEDC7 /* main.m in Sources */,

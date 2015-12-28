@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "were.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    were *we = [[were alloc]init];
+    we.frame = CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height);
+    we.backgroundColor = [UIColor whiteColor];
+    
+    [self.view addSubview:we];
+
 }
 
 - (void)didReceiveMemoryWarning {
